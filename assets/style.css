@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #fcfafa, #009fff);
+  padding: 1rem;
+}
+
+ul a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+body {
+  background: linear-gradient(to right, #fcfafa, #009fff);
+}
+.hero-links {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #38c5e1;
+  margin-right: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.hero {
+  background-color: #02304700;
+  padding: 70px 0;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-info {
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-info h1 {
+  color: black;
+  font-size: 30px;
+}
+
+.hero-info p {
+  font-size: 20px;
+  width: 70%;
+  justify-content: center;
+}
+
+.portada {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.btn {
+  background: #355c7d;
+  background: -webkit-linear-gradient(to right, #6c5b7b, #355c7d);
+  background: linear-gradient(to right, #6c5b7b, #355c7d);
+
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+#texto-info {
+  color: black;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 20px;
+  margin: 54px;
+}
+
+.cards {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 800px;
+  margin-bottom: 90px;
+  padding: 10px;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+.card-title h2 {
+  color: black;
+  font-size: 35px;
+  font-weight: 100;
+}
+.card-title p {
+  color: black;
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-1 {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+  gap: 5px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.card-1 img {
+  width: 40%;
+  height: 40%;
+}
+.card-2 {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+  gap: 5px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.card-2 img {
+  width: 40%;
+  height: 40%;
+}
+.card-3 {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+  gap: 5px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.card-3 img {
+  width: 40%;
+  height: 40%;
+}
+
+.cards h3 {
+  color: black;
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+}
+
+.cards p {
+  color: black;
+}
+
+.contacto {
+  display: flex;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin-bottom: 80px;
+  padding: 40px;
+  gap: 45px;
+  border-radius: 20px;
+}
+
+.contacto h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+
+.title-contact {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.datos-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.datos-contacto h3 {
+  color: blue;
+  font-size: 15px;
+}
+.datos-contacto p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: black;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  width: 200px;
+}
+
+.contact-text2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 200px;
+}
+
+.principal-img {
+  width: 40%;
+  height: 40%;
+  align-self: flex-end;
+}
+.contact-text img {
+  width: 20px;
+  height: 20px;
+}
+.contact-text2 img {
+  width: 20px;
+  height: 20px;
+}
+
+.redes-icons img {
+  width: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  background-color: white;
+}
+.footer-info p {
+  color: black;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+}
+.footer-img img {
+  width: 50px;
+}
